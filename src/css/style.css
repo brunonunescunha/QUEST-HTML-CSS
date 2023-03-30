@@ -1,0 +1,104 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.fundo {
+    height: 100vh;
+    background: url(../images/bg-desktop.svg) no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    height: 140px;
+}
+
+.logo {
+    width: 17%;
+    min-width: 135px;
+}
+
+.conteudo {
+    color: #ffffff;
+    gap: 50px;
+    display: flex;
+}
+
+.imagem {
+    width: 100%;
+    min-width: 300px;
+}
+
+.info-imagem {
+    max-width: 520px;
+    margin-top: 3.3%;
+}
+
+.info-imagem h2 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.info-imagem p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+    line-height: 26px;
+}
+
+.info-imagem .btn {
+    padding: 15px 65px;
+    background-color: #ffffff;
+    font-size: 1.7rem;
+    border-radius: 50px;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 1px 10px 10px #00000033;
+    transition: 0.2s ease-in-out;
+}
+
+.info-imagem .btn:hover {
+    color: #ffffff;
+    background-color: hsl(300, 69%, 71%);
+}
+
+.rodape {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin-right: 30px;
+}
+
+.icone {
+    color: #ffffff;
+    margin-left: 14px;
+    border: 1px solid;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out  ;
+
+}
+
+.facebook {
+    padding: 7px 15px;
+}
+
+.twitter {
+    padding: 7px 11px;
+}
+
+.instagram {
+    padding: 7px 12px;
+}
+
+.icone:hover {
+    color: hsl(300, 69%, 71%);
+    transform: scale(1.2);
+
+
+
+}
